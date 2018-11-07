@@ -8,3 +8,11 @@
 ul {
   list-style: none;
 }
+
+.logo {
+  z-index: 10000;
+  position: absolute;
+  bottom: -15px;
+  left: 10px;
+  height: 50px;
+}
