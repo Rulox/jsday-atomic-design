@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 require('./_style.scss');
 
@@ -7,8 +8,8 @@ const Image = props => (
 );
 
 Image.propTypes = {
-  src: React.PropTypes.string.isRequired,
-  alt: React.PropTypes.string,
+  src: PropTypes.string.isRequired,
+  alt: PropTypes.string,
 };
 
 export default Image;

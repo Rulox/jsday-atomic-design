@@ -30,7 +30,7 @@ const fileRules = {
   loader: 'file-loader',
   options: {
     publicPath: './',
-    outputPath: './assets/'
+    outputPath: './'
   }
 };
 

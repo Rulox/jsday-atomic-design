@@ -1,14 +1,13 @@
 import React      from 'react';
 import PropTypes  from 'prop-types';
 
-import Title      from '../../atoms/Title/Title';
 import Paragraph  from '../../atoms/Paragraph/Paragraph';
 
 require('./_style.scss');
 
 const Content = props => (
   <div className="m__content">
-    <Title text={props.title} />
+    <h4>{props.title}</h4>
     <Paragraph text={props.text} />
   </div>
 );
